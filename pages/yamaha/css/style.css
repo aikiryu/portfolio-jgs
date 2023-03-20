@@ -1,0 +1,1496 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Pretendard-Regular';
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('/pages/yamaha/images/videoimg.png') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+    display: none;
+}
+
+.videoimg {
+    position: absolute;
+    z-index: -50;
+}
+
+.videoimg img {
+    width: 740px;
+}
+
+.top {
+    height: 150px;
+    transition: all 0.5s;
+}
+
+
+.pcmenu {
+    transition: all 0.5s;
+}
+
+.logo {
+    line-height: 100px;
+    margin-left: 25px;
+    position: relative;
+}
+
+.logo a img {
+    width: 100px;
+    height: 50px;
+}
+
+.logo a:nth-child(2) img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.navBtn {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    border: 0;
+    background-color: transparent;
+}
+
+.navBtn span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.navBtn span:last-child {
+    margin-bottom: 0;
+}
+
+aside {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: all 1s;
+    width: 70%;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    font-size: 42px;
+    z-index: 100;
+}
+
+.asideimo {
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+
+.asideimo .customer {
+    line-height: 150px;
+    width: 50%;
+    font-size: 32px;
+    text-align: center;
+}
+
+.close img {
+    width: 30px;
+    height: 30px;
+}
+
+.close {
+    background-color: transparent;
+    border: 0;
+    font-size: 26px;
+    position: absolute;
+    line-height: 150px;
+    margin-top: -5px;
+}
+
+.close.set1 {
+    right: 120px;
+}
+
+.close.set2 {
+    right: 70px;
+}
+
+.close.set3 {
+    right: 20px;
+}
+
+.mainmenu {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    font-size: 32px;
+}
+
+.mainmenu>li {
+    margin-left: 10%;
+    margin-bottom: 60px;
+}
+
+.mainmenu>li:first-child {
+    margin-top: 30px;
+}
+
+.mainmenu>li>a {
+    border-bottom: 3px solid #fff;
+}
+
+.submenu {
+    display: none;
+}
+
+.submenu>li {
+    font-size: 24px;
+    height: 50px;
+}
+
+.submenu>li>a {
+    line-height: 50px;
+    width: 100%;
+}
+
+.mainmenu>li:nth-child(2)>.submenu {
+    display: none;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    height: 300px;
+}
+
+.mainmenu>li:nth-child(2)>.submenu>li {
+    font-size: 20px;
+    width: 45%;
+}
+
+.mainmenu>li:nth-child(2)>.submenu>li:nth-child(2n) {
+    margin-left: 20px;
+}
+
+.mainmenu>li:nth-child(2)>.submenu>li>a {
+    margin: 0;
+}
+
+.wrapper-slider {
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    width:1000px;
+}
+
+.cardlist {
+    height: 515px;
+    display: inline-flex;
+    width:1800px;
+}
+
+
+.cardlist .procard {
+    width: 200px;
+    height: 400px;
+    border: 2px solid #d6d6d6;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.protitleset {
+    background-color: #333;
+    opacity: 0.8;
+    width: 400px;
+    height: 100px;
+    text-align: right;
+    border-radius: 0 10px 10px 0;
+}
+
+
+.product.set3,
+.product.set2 {
+    display:none;
+}
+
+.settitle {
+    text-align: center;
+    padding-top:400px;
+}
+
+.title.en {
+    font-size: 30px;
+    color: #7f7f7f;
+}
+
+.title.ko {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.protitleset {
+    margin-top: 50px;
+}
+
+.protitle {
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 20px;
+}
+
+.protitle.ko {
+    font-size: 40px;
+}
+
+.protitle.en {
+    font-size: 26px;
+}
+
+.procard h4 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.procard img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: -35%;
+    bottom: 5%;
+}
+
+.procard h3 {
+    width: 20px;
+    font-size: 20px;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+
+.conbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #dbdbdb;
+    background-color: #dbdbdb;
+    border-radius: 30px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.box.active {
+    background-color: #fff;
+}
+
+.box:hover {
+    background-color: #fff;
+}
+
+.newsset {
+    height: 800px;
+    background-color: #333;
+    margin-top: 40px;
+}
+
+.title {
+    text-align: center;
+}
+
+.newstitleset {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.newstitleset>.title {
+    color: #fff;
+}
+
+.news {
+    width: 650px;
+    height: 120px;
+    background-color: #464646;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.news:hover {
+    background-color: #2f2f2f;
+}
+
+.newsco1 {
+    margin-top: 10px;
+}
+
+.news {
+    display: flex;
+}
+
+.news>img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.news>p {
+    width: 500px;
+    color: #fff;
+    font-size: 26px;
+    line-height: 30px;
+    margin-top: 28px;
+    margin-left: 24px;
+}
+
+.artitleset {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.artistset {
+    width: 650px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.arimg>img {
+    width: 200px;
+    height: 300px;
+}
+
+.artext {
+    margin-left: 28px;
+    margin-top: 90px;
+}
+
+.artext>h4 {
+    font-size: 30px;
+    line-height: 27px;
+    font-weight: bold;
+}
+
+.artext>h5 {
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.artext>p {
+    font-size: 20px;
+    line-height: 27px;
+    color: #665757;
+    margin-top: 30px;
+    position: relative;
+}
+
+.artext>p>span {
+    display: block;
+}
+
+.artext>p::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 20px;
+    background-image: url(../images/musicicon.png);
+    position: absolute;
+    left: -20px;
+    top: 5px;
+}
+
+.artistsc {
+    position: absolute;
+    bottom: 25px;
+    right: 10px;
+}
+
+.playlist {
+    padding-top: 40px;
+}
+
+.pltitle {
+    display: flex;
+    height: 60px;
+    width: 650px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.pltitle h4 {
+    font-size: 40px;
+}
+
+.moreview {
+    width: 100px;
+    height: 40px;
+    border: 3px solid #333;
+    color: #333;
+    border-radius: 50px;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.pllist li.active h5::before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 30px;
+    background-image: url('../images/note.png');
+    position: absolute;
+    left: -30px;
+    top: 15px;
+}
+
+.pllist li {
+    margin: 0 auto;
+    width: 650px;
+    height: 60px;
+    border-top: 1px solid #bbbbbb;
+    line-height: 60px;
+}
+
+.pllist li:hover {
+    background-color: #333;
+    transition: all 0.5s;
+}
+
+.pllist li a h5:hover {
+    color: #fff;
+}
+
+.pllist li a h5 {
+    font-size: 30px;
+    color: #5c5c5c;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.pllist li:last-child {
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.pllist li.active {
+    background-color: #333;
+}
+
+.pllist li.active h5 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 40px;
+    position: relative;
+}
+
+.sptcenter {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ctlist {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ctlist>li {
+    width: 200px;
+    margin-top: 54px;
+}
+
+.ctlist>li:hover {
+    opacity: 0.5;
+}
+
+.ctlist li a {
+    text-align: center;
+}
+
+.cttitle {
+    text-align: center;
+}
+
+.cttitle.en {
+    font-size: 24px;
+    color: #7f7f7f;
+    line-height: 50px;
+    height: 50px;
+}
+
+.ctlist>li:first-child .cttitle.en {
+    line-height: 21px;
+}
+
+.cttitle.ko {
+    font-size: 30px;
+    color: #333;
+    margin-top: -10px;
+    font-weight: 500;
+}
+
+.slogan {
+    padding: 40px 0;
+    position: relative;
+}
+
+.slogan img {
+    height: 300px;
+    width: 720px;
+}
+
+.sloganbox {
+    background-color: #fff;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+.sloganset {
+    width: 460px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.sloganset>h4 {
+    font-size: 24px;
+}
+
+.sloganset>h3 {
+    font-size: 30px;
+    color: #4b1f78;
+    padding: 10px 0;
+}
+
+.sloganset>p {
+    font-size: 19px;
+}
+
+.moreslogan {
+    width: 100px;
+    height: 30px;
+    border: 2px solid #333;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 26px;
+    font-weight: bold;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+
+footer {
+    background-color: #333;
+}
+
+.copy {
+    color: #fff;
+}
+
+.btlogo {
+    float: left;
+    width: 40%;
+    height: 280px;
+    text-align: center;
+}
+
+.btlogo img {
+    margin-top: 40px;
+}
+
+.btcenter {
+    margin-top: 20px;
+}
+
+.btcenter>h4 {
+    font-size: 30px;
+}
+
+.btcenter>h3 {
+    font-size: 30px;
+}
+
+.copywrite {
+    float: right;
+    width: 60%;
+    height: 280px;
+    padding-top: 20px;
+}
+
+.copywrite li {
+    line-height: 40px;
+    font-size: 30px;
+}
+
+.copywrite span {
+    font-size: 20px;
+    display: block;
+    text-align: right;
+    margin-right: 50px;
+}
+
+i {
+    width: 1px;
+    height: 10px;
+    background: #fff;
+    margin: 0 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.btmainmenu {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.btmainmenu>li {
+    font-size: 30px;
+}
+
+.btsubmenu>li {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 32px;
+}
+
+.btlist>ul {
+    padding: 20px 20px;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.product>img {
+    display: none;
+}
+
+.pcNav, .pcNavimo {
+    display:none;
+}
+
+.artistset.ar2,
+.artistset.ar3,
+.artistset.ar4,
+.artistset.ar5 {
+    display:none;
+}
+
+.conbox .box a img {
+    margin-left:-2px;
+}
+
+
+.product.set2,
+.product.set3,
+.product.set4,
+.product.set5,
+.product.set6,
+.product.set7,
+.product.set8,
+.product.set9,
+.product.set10,
+.product.set11,
+.product.set12 {
+    display:none;
+}
+
+
+img.piano,
+img.uppiano,
+img.dipiano,
+img.pianoacc{
+    width:160px;
+    left:5px;
+}
+
+img.drum,
+img.eldrum,
+img.modrum {
+    width:170px;
+    height:150px;
+    left:-2px;
+}
+img.electone {
+    width:200px;
+    height:200px;
+    left:-15px;
+}
+img.accstrings {
+    width:180px;
+    height:200px;
+    left:-5px;
+}
+img.xylophones,
+img.timpany,
+img.tomtoms,
+img.metal,
+img.marimba,
+img.chimes,
+img.mallets
+{
+    width:150px;
+    height:150px;
+    left:10px;
+}
+
+img.madrum,
+img.maxylophones {
+    width:170px;
+    height:150px;
+    left:-5px;
+}
+
+img.ear,
+img.receiversamp,
+img.soundbar{
+    width:180px;
+    height:150px;
+    left:-8px;
+}
+img.mixer,
+img.interfaces,
+img.netswitchs,
+img.processors1 {
+    width:180px;
+    height:150px;
+    left:-10px;
+}
+img.mic,
+img.processors2,
+img.videocollabo{
+    width:170px;
+    height:150px;
+    left:-5px;
+}
+img.app {
+    width:200px;
+    height:200px;
+    left:-15px;
+}
+
+@media all and (min-width:1024px) {
+    
+    html {
+        box-sizing: border-box;
+    }
+
+    .top:hover {
+        background-color: #fff;
+    }
+    video {
+        display: block;
+    }
+
+    .videoimg {
+        display: none;
+    }
+
+    .logo {
+        width: 200px;
+        height: 100px;
+        position: absolute;
+    }
+
+    .logo a img {
+        width: 200px;
+        height: 100px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    .imoticon button img {
+        width: 50px;
+        height: 50px;
+    }
+
+    header {
+        height: 100vh;
+    }
+
+    header button {
+        display: none;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .pcNav {
+        display: block;
+        color: #fff;
+        margin-left: 500px;
+    }
+
+    .pcmenu {
+        line-height: 150px;
+        width: 1200px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .pcmenu li {
+        font-size: 20px;
+        height:50px;
+    }
+
+    .top {
+        display: flex;
+    }
+
+    .contents {
+        background-color: #fff;
+    }
+
+    .productset {
+        height: 100vh;
+        position: relative;
+        margin-top: 0;
+    }
+
+    .conbox {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .product>img {
+        display: block;
+        position: absolute;
+        height: 715px;
+        top:200px;
+    }
+
+    .protitleset {
+        margin-left: 500px;
+        display: flex;
+        justify-content: right;
+        width: 800px;
+        height: 80px;
+    }
+
+    .wrapper-slider {
+        margin-left: 700px;
+        display:flex;
+    }
+
+    .protitle {
+        line-height: 80px;
+    }
+    .cardlist .procard a {
+        width:250px;
+        height:450px;
+    }
+    .cardlist .procard {
+        width: 250px;
+        height: 450px;
+    }
+
+    .cardlist .procard h4 {
+        font-size: 30px
+    }
+
+    .cardlist .procard img {
+        margin-left: 50px;
+    }
+
+    .cardlist .procard h3 {
+        font-size: 26px;
+        right: 20px;
+    }
+
+    .newsset {
+        height: 100vh;
+        padding-top: 50px;
+    }
+
+    .newstitleset>.title.ko {
+        margin-top: 20px;
+    }
+
+    .newslist {
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .news {
+        margin: 0;
+        width: 400px;
+        height: 500px;
+        position: relative;
+    }
+
+    .news img {
+        width: 300px;
+        height: 300px;
+        margin: 50px 50px;
+        display: block;
+    }
+
+    .news p {
+        color: #fff;
+        font-size: 19px;
+        position: absolute;
+        bottom: 50px;
+        margin: 0;
+        margin-left: 50px;
+    }
+
+    .artistlive {
+        padding-top: 50px;
+    }
+
+    .artitleset>.title.ko {
+        margin-top: 20px;
+    }
+
+    .artistco {
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .artistset {
+        margin: 0;
+        width: 750px;
+        height: 400px;
+        position: relative;
+    }
+
+    .artext {
+        position: absolute;
+        bottom: 30px;
+        left: 280px;
+    }
+
+    .arimg img {
+        width: 250px;
+        height: 400px;
+    }
+
+    .artext>h4 {
+        font-size: 30px;
+    }
+
+    .artext>h5 {
+        font-size: 16px;
+    }
+
+    .artext>p {
+        font-size: 14px;
+    }
+
+    .artext>p>span {
+        display: inline
+    }
+
+    .playlist {
+        margin: 0;
+        padding: 0;
+        width: 750px;
+        position: relative;
+        margin-top: 130px;
+    }
+
+    .moreview {
+        width: 80px;
+        height: 30px;
+        line-height: 24px;
+        position: absolute;
+        right: 150px;
+        top: 10px;
+    }
+
+    .pllist>li {
+        width: 480px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .pllist li a h5 {
+        font-size: 18px
+    }
+    .pllist li.active h5 {
+        font-size: 18px;
+    }
+
+    .pllist li.active h5::before {
+        background-image: url('../images/note.png');
+        background-repeat: no-repeat;
+        background-size: 60%;
+        top: 12px;
+        left: -25px;
+    }
+
+    .pltitle>h4 {
+        position: absolute;
+        left: 170px;
+    }
+
+    .ctlist {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .slogan {
+        padding: 0;
+        width: 100%;
+        height: 400px;
+    }
+
+    .slogan img {
+        position: absolute;
+        height: 400px;
+        width: 100%;
+    }
+
+    .sloganbox {
+        width: 500px;
+        height: 400px;
+        right: 300px;
+        top: 0;
+    }
+
+    .sloganset {
+        padding: 60px 0;
+    }
+
+    .moreslogan {
+        top: 65px;
+    }
+
+    footer {
+        padding: 50px 0;
+        height: 320px;
+        position: relative;
+    }
+
+    .copy {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .btlogo {
+        width: 300px;
+        height: 100px;
+    }
+
+    .btlogo img {
+        width: 300px;
+        height: 100px;
+        margin: 0;
+    }
+
+    .btcenter {
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    .btcenter>h4 {
+        font-size: 30px
+    }
+
+    .btcenter>h3 {
+        font-size: 40px
+    }
+
+    .copywrite {
+        float: left;
+        width: 600px;
+        height: 200px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .copywrite li {
+        width: 600px;
+        font-size: 20px;
+        text-align: left;
+        position: relative;
+        left: 100px;
+        padding: 10px 0;
+    }
+
+    .copywrite span {
+        font-size: 16px;
+        display: inline;
+        text-align: left;
+        width: 400px;
+        position: absolute;
+        right: -50px;
+    }
+
+    .btmainmenu {
+        width: 600px;
+        height: 200px;
+        justify-content: space-between;
+        position: absolute;
+        right: 180px;
+    }
+
+
+    .btsubmenu>li:hover {
+        font-weight: 500;
+    }
+
+    .btlist {
+        position: absolute;
+        left: 400px;
+        bottom: 20px;
+    }
+
+    .btlist>ul {
+        display: flex;
+        padding: 20px 20px;
+    }
+
+    .btlist>ul>li {
+        padding: 0 70px;
+    }
+
+    .pcNavimo {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        width: 200px;
+        height: 150px;
+        transition: all 0.5s;
+        display: flex;
+        line-height: 150px;
+        display: none;
+    }
+
+    .pc {
+        position: absolute;
+        left: 0;
+        top: 150px;
+        background-color: #fff;
+        width: 100%;
+        height: 320px;
+        display: none;
+    }
+
+    .pcsubtitle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 500px;
+        height: 100%;
+        background-color: #333;
+        text-align: center;
+        line-height: 320px;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .pc>.pcsubmenu {
+        position: absolute;
+        left: 500px;
+        z-index: 5;
+        color: #333;
+        width: 900px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .pc.sub01 {
+        height: 300px;
+    }
+
+    .pc.sub01>.pcsubtitle {
+        line-height: 300px;
+    }
+
+    .pc.sub01>.pcsubmenu {
+        margin-top: 50px;
+    }
+
+    .pc>.pcsubmenu li a {
+        width: 300px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        transition: all 0.2s;
+    }
+
+    .pc.sub01>.pcsubmenu li a {
+        height: 100px;
+        line-height: 100px;
+    }
+
+    .pc>.pcsubmenu li a:hover {
+        background-color: #333;
+        color: #fff;
+    }
+
+    .pc.sub02>.pcsubmenu {
+        position: absolute;
+        left: 500px;
+        z-index: 5;
+        color: #333;
+        width: 900px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .pc.sub02>.pcsubmenu li a {
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .pc.sub04 {
+        height: 200px;
+    }
+
+    .pc.sub04>.pcsubtitle {
+        line-height: 200px;
+    }
+
+    .pc.sub04>.pcsubmenu {
+        margin-top: 60px;
+    }
+
+    .pc.sub04>.pcsubmenu {
+        position: absolute;
+        left: 500px;
+        z-index: 5;
+        color: #333;
+        width: 900px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .pc.sub04>.pcsubmenu li a {
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .pc.sub05 {
+        height: 300px;
+    }
+
+    .pc.sub05>.pcsubtitle {
+        line-height: 300px;
+    }
+
+    .pc.sub05>.pcsubmenu {
+        margin-top: 60px;
+    }
+
+    .pc.sub05>.pcsubmenu {
+        position: absolute;
+        left: 500px;
+        z-index: 5;
+        color: #333;
+        width: 900px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .pc.sub05>.pcsubmenu li a {
+        height: 80px;
+        line-height: 80px;
+    }
+    .product:not(:nth-child(1)) {
+        display:block;
+    }
+
+    .product.set2 .wrapper-slider .cardlist .procard:nth-child(1)>img {
+        width:200px;
+        margin-left:90px;
+    }
+    .product {
+        margin-top: 50px;
+        height: 100vh;
+    }
+
+    .settitle {
+        text-align: center;
+        padding-top:200px;
+    }
+    .artistset {
+        display:none;
+    }
+    .artistset:nth-child(1) {
+        display:block;
+    }
+
+    .product.set2,
+    .product.set3,
+    .product.set4,
+    .product.set5,
+    .product.set6,
+    .product.set7,
+    .product.set8,
+    .product.set9,
+    .product.set10,
+    .product.set11,
+    .product.set12 {
+        display:none;
+    }
+    img.ampguitar {
+        width:400px;
+        height:500px;
+        left:-150px;
+        top:50px;
+    }
+    img.piano,
+    img.uppiano,
+    img.dipiano,
+    img.pianoacc{
+        width:200px;
+        left:-50px;
+    }
+    img.drum, img.eldrum, img.modrum {
+        width:200px;
+        height:200px;
+        left:-50px;
+    }
+
+    img.electone {
+        width:250px;
+        height:250px;
+        left:-70px;
+    }
+    img.accstrings {
+        width:200px;
+        height:200px;
+        left:-50px;
+    }
+    img.xylophones,
+    img.timpany,
+    img.tomtoms,
+    img.metal,
+    img.marimba,
+    img.chimes,
+    img.mallets
+    {
+        width:200px;
+        height:200px;
+        left:-45px;
+    }
+
+    img.madrum,
+    img.maxylophones {
+        width:200px;
+        height:200px;
+        left:-50px;
+    }
+
+    img.ear,
+    img.receiversamp,
+    img.soundbar {
+        width:220px;
+        height:250px;
+        left:-50px;
+    }
+    img.mixer,
+    img.interfaces,
+    img.netswitchs,
+    img.processors1 {
+        width:225px;
+        height:200px;
+        left:-60px;
+    }
+    img.mic,
+    img.processors2,
+    img.videocollabo {
+        width:200px;
+        height:200px;
+        left:-50px;
+    }
+    img.app {
+        width:250px;
+        height:250px;
+        left:-70px;
+    }
+    .pcmenu li {
+        display: inline-block;
+        padding: 0 20px;
+      }
+      
+      .pcmenu li a {
+        position: relative;
+        display: block;
+        cursor: pointer;
+    }
+    .pcmenu li a:before, .pcmenu li a:after {
+        content: "";
+        position: absolute;
+        top:90px;
+        width: 0%;
+        height: 4px;
+        bottom: -2px;
+        margin-top: -0.5px;
+        background: #333;
+      }
+      .pcmenu li a:before {
+        left: -2.5px;
+      }
+      .pcmenu li a:after {
+        right: 2.5px;
+        background: #333;
+        transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+      }
+      .pcmenu li a:hover:before {
+        background: #333;
+        width: 100%;
+        transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+      }
+      .pcmenu li a:hover:after {
+        background: transparent;
+        width: 100%;
+    }
+    .cardlist::before {
+        content:"";
+        display:block;
+        background: url('../images/left-arrow.png');
+        width:50px;
+        height:50px;
+        position: absolute;
+        left:-100px;
+        top:240px;
+    }
+}

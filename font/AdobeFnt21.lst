@@ -1,0 +1,207 @@
+%!Adobe-FontList 1.20
+%Locale:0x412
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:GmarketSansBold
+FamilyName:Gmarket Sans
+StyleName:Bold
+FullName:Gmarket Sans Bold
+MenuName:G마켓 산스 Bold
+StyleBits:0
+FamilyNameNative:G마켓 산스
+StyleNameNative:Bold
+FullNameNative:G마켓 산스 Bold
+WritingScript:Korean
+OutlineFileName:D:\조규현\웹 포트폴리오\웹 po1\Font\GmarketSansBold.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:889716
+FileModTime:1571632890
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Gmarket Sans Bold
+NameArray:3,Mac,4,G마켓 산스 Bold
+NameArray:0,Win,1,Gmarket Sans Bold
+NameArray:0,Win,16,Gmarket Sans
+NameArray:3,Win,1,G마켓 산스 Bold
+NameArray:3,Win,16,G마켓 산스
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\조규현\웹 포트폴리오\웹 po1\Font\GmarketSansBold.woff
+FileModTime:1663911941
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:GmarketSansLight
+FamilyName:Gmarket Sans
+StyleName:Light
+FullName:Gmarket Sans Light
+MenuName:G마켓 산스 Light
+StyleBits:0
+FamilyNameNative:G마켓 산스
+StyleNameNative:Light
+FullNameNative:G마켓 산스 Light
+WritingScript:Korean
+OutlineFileName:D:\조규현\웹 포트폴리오\웹 po1\Font\GmarketSansLight.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:842968
+FileModTime:1571632890
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Gmarket Sans Light
+NameArray:3,Mac,4,G마켓 산스 Light
+NameArray:0,Win,1,Gmarket Sans Light
+NameArray:0,Win,16,Gmarket Sans
+NameArray:3,Win,1,G마켓 산스 Light
+NameArray:3,Win,16,G마켓 산스
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\조규현\웹 포트폴리오\웹 po1\Font\GmarketSansLight.woff
+FileModTime:1663911926
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:GmarketSansMedium
+FamilyName:Gmarket Sans
+StyleName:Medium
+FullName:Gmarket Sans Medium
+MenuName:G마켓 산스 Medium
+StyleBits:0
+FamilyNameNative:G마켓 산스
+StyleNameNative:Medium
+FullNameNative:G마켓 산스 Medium
+WritingScript:Korean
+OutlineFileName:D:\조규현\웹 포트폴리오\웹 po1\Font\GmarketSansMedium.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:868048
+FileModTime:1571632890
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Gmarket Sans Medium
+NameArray:3,Mac,4,G마켓 산스 Medium
+NameArray:0,Win,1,Gmarket Sans Medium
+NameArray:0,Win,16,Gmarket Sans
+NameArray:3,Win,1,G마켓 산스 Medium
+NameArray:3,Win,16,G마켓 산스
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\조규현\웹 포트폴리오\웹 po1\Font\GmarketSansMedium.woff
+FileModTime:1663911915
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GmarketSansTTFBold
+FamilyName:Gmarket Sans TTF
+StyleName:Bold
+FullName:Gmarket Sans TTF Bold
+MenuName:G마켓 산스 TTF Bold
+StyleBits:0
+FamilyNameNative:G마켓 산스 TTF
+StyleNameNative:Bold
+FullNameNative:G마켓 산스 TTF Bold
+WritingScript:Korean
+OutlineFileName:D:\조규현\웹 포트폴리오\웹 po1\Font\GmarketSansTTFBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2511976
+FileModTime:1571632890
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Gmarket Sans TTF Bold
+NameArray:3,Mac,4,G마켓 산스 TTF Bold
+NameArray:0,Win,1,Gmarket Sans TTF Bold
+NameArray:0,Win,16,Gmarket Sans TTF
+NameArray:3,Win,1,G마켓 산스 TTF Bold
+NameArray:3,Win,16,G마켓 산스 TTF
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GmarketSansTTFLight
+FamilyName:Gmarket Sans TTF
+StyleName:Light
+FullName:Gmarket Sans TTF Light
+MenuName:G마켓 산스 TTF Light
+StyleBits:0
+FamilyNameNative:G마켓 산스 TTF
+StyleNameNative:Light
+FullNameNative:G마켓 산스 TTF Light
+WritingScript:Korean
+OutlineFileName:D:\조규현\웹 포트폴리오\웹 po1\Font\GmarketSansTTFLight.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2413604
+FileModTime:1571632890
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Gmarket Sans TTF Light
+NameArray:3,Mac,4,G마켓 산스 TTF Light
+NameArray:0,Win,1,Gmarket Sans TTF Light
+NameArray:0,Win,16,Gmarket Sans TTF
+NameArray:3,Win,1,G마켓 산스 TTF Light
+NameArray:3,Win,16,G마켓 산스 TTF
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GmarketSansTTFMedium
+FamilyName:Gmarket Sans TTF
+StyleName:Medium
+FullName:Gmarket Sans TTF Medium
+MenuName:G마켓 산스 TTF Medium
+StyleBits:0
+FamilyNameNative:G마켓 산스 TTF
+StyleNameNative:Medium
+FullNameNative:G마켓 산스 TTF Medium
+WritingScript:Korean
+OutlineFileName:D:\조규현\웹 포트폴리오\웹 po1\Font\GmarketSansTTFMedium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2417020
+FileModTime:1571632890
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Gmarket Sans TTF Medium
+NameArray:3,Mac,4,G마켓 산스 TTF Medium
+NameArray:0,Win,1,Gmarket Sans TTF Medium
+NameArray:0,Win,16,Gmarket Sans TTF
+NameArray:3,Win,1,G마켓 산스 TTF Medium
+NameArray:3,Win,16,G마켓 산스 TTF
+%EndFont
+

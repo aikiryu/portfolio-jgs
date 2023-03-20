@@ -1,0 +1,183 @@
+%!Adobe-FontList 1.20
+%Locale:0x412
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Cafe24Ssurround
+FamilyName:Cafe24 Ssurround
+StyleName:Bold
+FullName:Cafe24 Ssurround
+MenuName:카페24 써라운드
+StyleBits:0
+FamilyNameNative:카페24 써라운드
+StyleNameNative:Bold
+FullNameNative:카페24 써라운드 Bold
+WritingScript:Korean
+OutlineFileName:D:\조규현\웹 포트폴리오\웹 po2\Font\Cafe24Ssurround.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1330920
+FileModTime:1596174966
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Cafe24 Ssurround
+NameArray:0,Mac,4,Cafe24 Ssurround
+NameArray:0,Win,1,Cafe24 Ssurround
+NameArray:0,Win,16,Cafe24 Ssurround
+NameArray:3,Win,1,카페24 써라운드
+NameArray:3,Win,16,카페24 써라운드
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GameOnPersonalUseOnly
+FamilyName:Game On_PersonalUseOnly
+StyleName:Regular
+FullName:Game On_PersonalUseOnly
+MenuName:Game On_PersonalUseOnly
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\조규현\웹 포트폴리오\웹 po2\Font\Game On_PersonalUseOnly.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:409172
+FileModTime:1616968484
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Game On_PersonalUseOnly
+NameArray:0,Win,1,Game On_PersonalUseOnly
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HSSaemaul
+FamilyName:HSSaemaul
+StyleName:Regular
+FullName:HSSaemaul
+MenuName:HS새마을체
+StyleBits:0
+FamilyNameNative:HS새마을체
+StyleNameNative:Regular
+FullNameNative:HS새마을체
+WritingScript:Korean
+OutlineFileName:D:\조규현\웹 포트폴리오\웹 po2\Font\HSSaemaul-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1100952
+FileModTime:1665724759
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,HSSaemaul
+NameArray:0,Win,1,HS읜믄?甄
+NameArray:0,Win,16,HS읜믄?甄
+NameArray:3,Win,16,HS새마을체
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SimplyRounded-BoldItalic
+FamilyName:Simply Rounded
+StyleName:Bold Italic
+FullName:Simply Rounded Bold Italic
+MenuName:Simply Rounded
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:D:\조규현\웹 포트폴리오\웹 po2\Font\Simply Rounded Bold Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:52768
+FileModTime:1419899076
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Simply Rounded Bold Italic
+NameArray:0,Win,1,Simply Rounded
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SimplyRounded-Bold
+FamilyName:Simply Rounded
+StyleName:Bold
+FullName:Simply Rounded Bold
+MenuName:Simply Rounded
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\조규현\웹 포트폴리오\웹 po2\Font\Simply Rounded Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:50620
+FileModTime:1419898326
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Simply Rounded Bold
+NameArray:0,Win,1,Simply Rounded
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SimplyRounded-Italic
+FamilyName:Simply Rounded
+StyleName:Italic
+FullName:Simply Rounded Italic
+MenuName:Simply Rounded
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:D:\조규현\웹 포트폴리오\웹 po2\Font\Simply Rounded Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:52456
+FileModTime:1419898938
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Simply Rounded Italic
+NameArray:0,Win,1,Simply Rounded
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\조규현\웹 포트폴리오\웹 po2\Font\Simply Rounded.pdf
+FileModTime:1419899524
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SimplyRounded
+FamilyName:Simply Rounded
+StyleName:Regular
+FullName:Simply Rounded
+MenuName:Simply Rounded
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\조규현\웹 포트폴리오\웹 po2\Font\Simply Rounded.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:40100
+FileModTime:1419897702
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Simply Rounded
+NameArray:0,Win,1,Simply Rounded
+%EndFont
+

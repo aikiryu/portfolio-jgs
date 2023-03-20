@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Pretendard-Regular';
+    margin:0;
+    padding:0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    width:100%;
+    color:#333;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.left {
+    width:25%;
+    float:left;
+    height: 100%;
+    background-color: #dfd9c7;
+    position: relative;
+}
+.left h4 {
+    text-align: center;
+    font-size:40px;
+    margin-bottom:40px;
+}
+.design {
+    position: absolute;
+    top:15%;
+}
+.design p {
+    font-size:23px;
+    padding:0 30px;
+    text-align: left;
+    font-weight: 500;
+}
+.concept {
+    margin:0 auto;
+    margin-top:500px;
+}
+.concept h3 {
+    text-align: center;
+    font-size:30px;
+    padding:10px 0px;
+}
+.middle {
+    width:25%;
+    float:left;
+}
+
+.preview {
+    text-align: center;
+    font-size:50px;
+}
+.preview h4 {
+    padding:10px 0;
+    margin-top:10px;
+}
+.preview img {
+    margin:0 auto;
+    width:400px;
+    height:250px;
+    margin:20px 0;
+    border-right:3px solid #ccc;
+    border-bottom:3px solid #ccc;
+
+}
+.right {
+    float:right;
+    width:50%;
+    height: 100%;
+}
+
+.righttitle {
+    background-color: #dfd9c7;
+    font-size:40px;
+    height: 100px;
+    line-height: 100px;
+    font-weight: 500;
+    padding-left:40px;
+    border-radius: 100px 0 0 100px;
+}
+.fontstyle {
+    height:30%;
+}
+span {
+    display:block;
+    border:2px solid #333;
+    border-radius: 50px 0 0 50px;
+    margin: 3px 0;
+    margin-left:60px;
+}
+.font {
+    margin-top:10px;
+}
+.font p {
+    text-align: right;
+    margin-right:20px;
+    font-size:18px;
+}
+.font li {
+    padding:10px 0;
+}
+.cafe {
+    display:flex;
+}
+.cafe li{
+    font-size:30px;
+    padding:0 20px;
+    margin-left:50px;
+    line-height: 30px;
+}
+.basic {
+    height:35%;
+}
+.color ul {
+    display:flex;
+    padding:20px 0;
+    margin-left:50px;
+}
+.color li {
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 200px;
+    font-size:30px;
+}
+.white {
+    border:1px solid #333;
+}
+.black {
+    background-color: #333;
+    color:#fff
+}
+.navy {
+    background-color: #0B193B;
+    color:#fff
+}
+.sky {
+    background-color: #e0e7ff;
+    color:#fff
+}
+.identity {
+    height:35%;
+}
+
+.color ul li:nth-child(2) {
+    margin-left:-20px;
+}
+
+.colortext {
+    width:400px;
+    font-size:24px;
+    position: absolute;
+    right:60px;
+    bottom:60px;
+}
